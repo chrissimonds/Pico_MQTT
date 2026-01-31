@@ -315,7 +315,7 @@ MQTT_CLIENT_ID = b"raspberrypi_pico2w_unique_name"
 MQTT_KEEPALIVE = 7200
 MQTT_SSL = True   # set to False if using local Mosquitto MQTT broker
 MQTT_SSL_PARAMS = {'server_hostname': MQTT_SERVER}
-# For this example code keeying common topic since the JSON format below will report temperature reading
+# For this example code keep the common topic for now since the JSON format below will report temperature reading
 MQTT_TOPIC_PUBLISH = "pico2/temp"
 
 # Initializing message count for JSON payload
